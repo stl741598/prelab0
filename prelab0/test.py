@@ -5,6 +5,9 @@ import sys
 import tempfile
 from pathlib import Path
 
+
+
+
 SCRIPT_DIR = Path(__file__).resolve().parent
 BUNDLE_DIR = os.environ.get("CLASSROOM50_BUNDLE_DIR")
 
@@ -47,7 +50,7 @@ def main():
         executable = next((path for path in candidates if path.is_file()), None)
 
         if executable is None:
-            print("BUILD FAILED: arbitrary executable was not created")
+            print("BUILD FAILED: arbitrary executable was not created!!!!")
             return 1
 
         input_files = sorted(INPUT_DIR.glob("*.txt"))

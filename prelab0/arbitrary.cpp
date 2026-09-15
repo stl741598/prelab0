@@ -8,6 +8,8 @@
 // argv：argument vector，字符串数组，存放所有命令行参数
 // argv[0] 永远是程序本身的名字；argv[1]是第1个参数，argv[2]第2个参数
 int main(int argc, char* argv[]) {
+
+    
     // 判断：参数总数必须等于3（程序名 + 输入文件名 + 输出文件名）
     if (argc != 3) {
         // std::cerr：标准错误输出流，专门打印错误信息
