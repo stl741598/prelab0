@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "ee658-fall2026"
+assignment: "project-phase-0"
+owner:
+  username: "meitingd-a11y"
+  id: 328926598
+  accepted_at: "2026-09-14T03:20:59Z"
+source:
+  owner: "EE658-Latest"
+  owner_id: 229215085
+  repo: "Project-phase0"
+  branch: "main"
